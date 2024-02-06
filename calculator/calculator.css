@@ -1,3 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
+    background-color: #2222;
+}
+.input-container input{
+    outline: none;
+    border: nonne;
     background-color: black;
+    width: 100%;
+    font-size: 2rem;
+    color: white;
+    text-align: right;
+    padding: 6rem 0.6rem 4rem;
+    border-radius: 30px;
+
+
+
+}
+.container{
+    background-color: black;
+    width: 400px;
+    margin: 50px auto;
+    border-radius: 30px;
+    padding: 20px 15px;
+
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    gap: 0.8rem;
+}
+
+.button button{
+    font-size: 2rem;
+}
+
+buttons button:hover{
+    opacity: 0.8;
+}
+
+.shape1{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+}
+
+.shape2{
+    width: 180px;
+    height: 80px;
+    border-radius: 50px;
+    border: none;
+}
+
+.white{
+    border-color: #a5a5a5;
+    color: black;
+}
+
+.yellow{
+    background-color: #f1a33c;
+}
+
+.dark{
+    background-color: #333333;
+    color: #fff;
 }
